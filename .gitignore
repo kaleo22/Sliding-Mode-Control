@@ -1,3 +1,5 @@
 /.venv
 /.vscode
+/src/.ipynb_checkpoints/
 **/.ipynb_checkpoints/
+**/.ipynb_checkpoints/**
