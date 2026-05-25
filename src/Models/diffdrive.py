@@ -3,12 +3,12 @@ import numpy as np
 class DiffDrive:
     def __init__(self, x=0.0, y=0.0, omega_l=0.0, omega_r=0.0):
         ''' Initializes the robot's position and orientation.'''
-        self.L = 0.5  # distance between wheels
+        self.L = 0.5 # distance between the wheels
         self.x = x
         self.y = y
         self.omega_l = omega_l
         self.omega_r = omega_r
-        self.phi = 0.0  # orientation of the robot
+        self.phi = 0.0 
         self.state = np.array([[self.x], [self.y], [self.phi]])
         self.r = 0.2 # radius of the wheels
         self.v = 0.3
